@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# large media files
+public/sounds/*.mp3
+public/sounds/*.wav

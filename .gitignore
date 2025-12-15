@@ -41,5 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 # large media files
-public/sounds/*.mp3
-public/sounds/*.wav
+# public/sounds/*.mp3
+# public/sounds/*.wav

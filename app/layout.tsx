@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FocusFlow - Local-First Productivity",
+  title: "FocusFlow",
   description: "Manage focus sessions, tasks, habits, and goals entirely on your device",
 };
 
@@ -25,13 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-zinc-100`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-zinc-100`}>
         <Sidebar />
-        <main className="pt-16 sm:pt-20 min-h-screen">
-          {children}
-        </main>
+        <main className="pt-16 sm:pt-20 min-h-screen">{children}</main>
       </body>
     </html>
   );
